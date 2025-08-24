@@ -1,0 +1,33 @@
+.page.theme_dark {
+  --bc: #000028;
+	--border: #FF0070;
+	--paragraph-color: #F1B2CE;
+	--header-text: #DB00FF;
+  --bc-text: #FF0070;
+	--title: #000028;
+	--section-title: #FF0070;
+	--background-img: url(../images/cover-image-dark.png);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bc: #000028;
+        --border: #FF0070;
+        --paragraph-color: #F1B2CE;
+        --header-text: #DB00FF;
+        --bc-text: #FF0070;
+        --title: #000028;
+        --section-title: #FF0070;
+        --background-img: url(../images/cover-image-dark.png);
+    }
+    
+    .ellipse, .rec {
+        /* Показываем элементы в темной теме */
+        clip: auto;
+        clip-path: none;
+        width: auto;
+        height: auto;
+        overflow: visible;
+        position: static;
+        white-space: normal;
+    }
+}

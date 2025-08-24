@@ -1,0 +1,10 @@
+.page.theme_dark {
+	--bc: #000028;
+	--border: #FF0070;
+	--paragraph-color: #F1B2CE;
+	--header-text: #DB00FF;
+  --bc-text: #FF0070;
+	--title: #000028;
+	--section-title: #FF0070;
+	--background-img: url(../images/cover-image-dark.png);
+}

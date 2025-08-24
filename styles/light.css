@@ -1,0 +1,43 @@
+.page.theme_light {
+	--bc: #FFF1F7;
+	--border: #353430;
+	--paragraph-color: #353430;
+	--header-text: #FFC2E6;
+  --bc-text: #FF8DCB;
+	--title: #353430;
+	--section-title: #353430;
+	--background-img: url(../images/cover-image-light.png);
+
+	.ellipse, .rec {
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bc: #FFF1F7;
+		--border: #353430;
+		--paragraph-color: #353430;
+		--header-text: #FFC2E6;
+		--bc-text: #FF8DCB;
+		--title: #353430;
+		--section-title: #353430;
+		--background-img: url(../images/cover-image-light.png);
+  }
+  
+  .ellipse, .rec {
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap;
+	}
+}
