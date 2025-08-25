@@ -8,7 +8,7 @@
 	--section-title: #353430;
 	--background-img: url(../images/cover-image-light.png);
 
-	.ellipse, .rec {
+	/* .rec {
 		clip: rect(0 0 0 0);
 		clip-path: inset(50%);
 		width: 1px;
@@ -16,7 +16,7 @@
 		overflow: hidden;
 		position: absolute;
 		white-space: nowrap;
-	}
+	} */
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,7 +31,7 @@
 		--background-img: url(../images/cover-image-light.png);
   }
   
-  .ellipse, .rec {
+  /* .rec {
 		clip: rect(0 0 0 0);
 		clip-path: inset(50%);
 		width: 1px;
@@ -39,5 +39,5 @@
 		overflow: hidden;
 		position: absolute;
 		white-space: nowrap;
-	}
+	} */
 }
